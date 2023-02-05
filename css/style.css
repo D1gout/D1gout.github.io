@@ -32,7 +32,7 @@ h4,
 h5,
 h6 {
   font-family: 'Rounds';
-  font-weight: 500;
+  font-weight: 300;
   color: #000000; }
 
 .list {
@@ -129,7 +129,7 @@ button:focus {
   color: #fff;
   letter-spacing: 0px;
   font-family: 'Rounds';
-  font-weight: 500;
+  font-weight: 300;
   font-size: 14px;
   line-height: 46px;
   outline: none !important;
@@ -396,7 +396,7 @@ button:focus {
         font-family: 'Rounds';
         margin-bottom: 10px;
         text-transform: uppercase;
-        font-weight: 700; }
+        font-weight: 600; }
         @media (max-width: 991px) {
           .banner_area .banner_inner .banner_content h2 {
             font-size: 30px; } }
