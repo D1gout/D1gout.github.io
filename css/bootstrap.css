@@ -40,7 +40,7 @@
     src: url(/RoundsBlack.woff2) format('woff2'),
         url(/RoundsBlack.woff) format('woff'),
         url(/RoundsBlack.ttf) format('truetype');
-    font-weight: 900;
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
