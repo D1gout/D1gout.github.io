@@ -34,10 +34,16 @@
 			</div>
 		</div>
 	</section>
-	<form action="send.php" method="post">
-		<input type="text" name="fio" placeholder="Укажите ФИО" required>
-		<input type="text" name="email" placeholder="Укажите e-mail" required>
-		<input type="submit" value="Отправить">
+	<form method="POST"
+      action="https://docs.google.com/forms/d/1FHAh1OZNn2itLZDqRFkIhSRV93m_xcdVD5YBRujNoSE"
+      onsubmit="return window.submitGoogleForm(this);">
+
+		<label>name</label>
+		<!-- view the form and inspect inputs to get the generated names. -->
+		<input name="entry.2345234">
+
+		<button type=submit>Submit</button>
 	</form>
+	<script src="google-form.js"></script>
 </body>
 </html>
