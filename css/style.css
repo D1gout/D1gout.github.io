@@ -161,6 +161,10 @@ button:focus {
     box-shadow: none;
     background-clip: border-box; }
 
+.btn_send {
+  position: absolute;
+  margin-left: 50%;
+}
 .overlay {
   position: absolute;
   left: 0;

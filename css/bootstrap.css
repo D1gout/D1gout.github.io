@@ -6899,11 +6899,6 @@ button.bg-dark:hover {
     -ms-flex-align: center !important;
     align-items: center !important
 }
-.align-items-center-buy {
-    -ms-flex-align: center !important;
-    align-items: center !important;
-    margin-left: 50%;
-}
 .align-items-baseline {
     -ms-flex-align: baseline !important;
     align-items: baseline !important
