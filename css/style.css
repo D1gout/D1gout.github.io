@@ -139,24 +139,24 @@ button:focus {
   border-radius: 5px;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  background-image: linear-gradient(to right, #cd8a8a 0%, #f44a40 100%), radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,178,1) 10%, rgba(0,0,0,1) 20%, rgba(255,255,178,1) 30%, rgba(0,0,0,1) 40%, rgba(255,255,178,1) 50%, rgba(0,0,0,1) 60%, rgba(255,255,178,1) 70%, rgba(0,0,0,1) 80%, rgba(255,255,178,1) 90%, rgba(0,0,0,1) 100%);
+  background-image: linear-gradient(to right, #cd8a8a 0%, #f44a40 100%), radial-gradient(circle at top left, #8f8f35, #a5a570);
   border: double 2px transparent;
   box-shadow: 0px 10px 30px #ffffb2; }
   .primary_btn span {
     padding: 0 42px; }
   .primary_btn.tr-bg {
-    background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,178,1) 10%, rgba(0,0,0,1) 20%, rgba(255,255,178,1) 30%, rgba(0,0,0,1) 40%, rgba(255,255,178,1) 50%, rgba(0,0,0,1) 60%, rgba(255,255,178,1) 70%, rgba(0,0,0,1) 80%, rgba(255,255,178,1) 90%, rgba(0,0,0,1) 100%);
+    background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #8f8f35, #a5a570);
     border: 2px solid transparent;
     color: #222222;
     box-shadow: none; }
     .primary_btn.tr-bg:hover {
-      background-image: linear-gradient(to right, #cd8a8a 0%, #f44a40 100%), radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,178,1) 10%, rgba(0,0,0,1) 20%, rgba(255,255,178,1) 30%, rgba(0,0,0,1) 40%, rgba(255,255,178,1) 50%, rgba(0,0,0,1) 60%, rgba(255,255,178,1) 70%, rgba(0,0,0,1) 80%, rgba(255,255,178,1) 90%, rgba(0,0,0,1) 100%);
+      background-image: linear-gradient(to right, #cd8a8a 0%, #f44a40 100%), radial-gradient(circle at top left, #8f8f35, #a5a570);
       border: double 2px transparent;
       color: #ffffff;
-      box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3); }
+      box-shadow: 0px 10px 30px #ffffb2; }
   .primary_btn:hover {
-    background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,178,1) 10%, rgba(0,0,0,1) 20%, rgba(255,255,178,1) 30%, rgba(0,0,0,1) 40%, rgba(255,255,178,1) 50%, rgba(0,0,0,1) 60%, rgba(255,255,178,1) 70%, rgba(0,0,0,1) 80%, rgba(255,255,178,1) 90%, rgba(0,0,0,1) 100%);
-    border: 2px solid radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,178,1) 10%, rgba(0,0,0,1) 20%, rgba(255,255,178,1) 30%, rgba(0,0,0,1) 40%, rgba(255,255,178,1) 50%, rgba(0,0,0,1) 60%, rgba(255,255,178,1) 70%, rgba(0,0,0,1) 80%, rgba(255,255,178,1) 90%, rgba(0,0,0,1) 100%);
+    background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #8f8f35, #a5a570);
+    border: 2px solid radial-gradient(circle at top left, #8f8f35, #a5a570);
     color: #222222;
     box-shadow: none;
     background-clip: border-box; }
