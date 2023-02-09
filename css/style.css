@@ -156,19 +156,11 @@ button:focus {
       box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3); }
   .primary_btn:hover {
     background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #4458dc, #854fee);
-    border: 2px solid #854fee;
+    border: 2px solid #000000;
     color: #222222;
     box-shadow: none;
     background-clip: border-box; }
 
-.btn_send {
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  text-align: center;
-}
 .overlay {
   position: absolute;
   left: 0;
