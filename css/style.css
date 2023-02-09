@@ -164,7 +164,6 @@ button:focus {
 .btn_send {
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
 }
 .overlay {
   position: absolute;
