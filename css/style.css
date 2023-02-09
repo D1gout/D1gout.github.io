@@ -156,7 +156,7 @@ button:focus {
       box-shadow: 0px 10px 30px #ffffb2; }
   .primary_btn:hover {
     background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #8f8f35, #a5a570);
-    border: 2px solid radial-gradient(circle at top left, #8f8f35, #a5a570);
+    border: 2px solid #000000;
     color: #222222;
     box-shadow: none;
     background-clip: border-box; }
