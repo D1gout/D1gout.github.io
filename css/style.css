@@ -160,6 +160,14 @@ button:focus {
     color: #222222;
     box-shadow: none;
     background-clip: border-box; }
+  .primary_btn.project {
+    color: red;
+    background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to right, #cd8a8a 0%, #f44a40 100%);
+    border: 2px solid #000000;
+    box-shadow: none;
+    margin-top: -10px;
+    background-clip: border-box;
+  }
 
 .overlay {
   position: absolute;
