@@ -2,24 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link
-      rel="preload"
-      href="RoundsBlack.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="preload" href="RoundsBlack.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="icon" href="images/favicon.png" type="image/png" />
     <title>Daniil Ashchev</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Подключаем библиотеку для паутинок -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
   </head>
 
   <body>
+    <!-- Блок для паутинок -->
+    <div id="particles-js" style="
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;"></div>
+
+    <!-- Блок с текстом и кнопками -->
     <section class="home_banner_area">
       <div class="banner_inner">
         <div class="container">
@@ -35,52 +38,22 @@
                 <div class="align-items-center">
                   <h5 class="primary-btn"><strong>React JS | Python Fast API
                     <br>VUE 3 | Laravel PHP</strong></h5>
-                  <a
-                    class="primary_btn tr-bg"
-                    href="https://docs.google.com/forms/d/1FHAh1OZNn2itLZDqRFkIhSRV93m_xcdVD5YBRujNoSE"
-                    ><span>Make order</span></a
-                  ><br />
-                  <a
-                    class="primary_btn"
-                    href="https://github.com/D1gout/CV-Russia/raw/main/resume.pdf"
-                    ><span>CV</span></a
-                  >
-                  <a class="primary_btn tr-bg" href="https://github.com/d1gout"
-                    ><span>GitHub</span></a
-                  >
-                  <a class="primary_btn tr-bg" href="https://gu-ural.ru"
-                    ><span>University</span></a
-                  >
-                  <a class="primary_btn tr-bg" href="https://t.me/Aweyout"
-                    ><span>Telegram</span></a
-                  >
-                  <a class="primary_btn tr-bg" href="https://vk.com/aweyout"
-                    ><span>VK</span></a
-                  >
-                  <a
-                    class="primary_btn tr-bg"
-                    href="https://www.instagram.com/my_aweyout"
-                    ><span>Instagram</span></a
-                  >
+                  <a class="primary_btn tr-bg" href="https://docs.google.com/forms/d/1FHAh1OZNn2itLZDqRFkIhSRV93m_xcdVD5YBRujNoSE"><span>Make order</span></a><br />
+                  <a class="primary_btn" href="https://github.com/D1gout/CV-Russia/raw/main/resume.pdf"><span>CV</span></a>
+                  <a class="primary_btn tr-bg" href="https://github.com/d1gout"><span>GitHub</span></a>
+                  <a class="primary_btn tr-bg" href="https://gu-ural.ru"><span>University</span></a>
+                  <a class="primary_btn tr-bg" href="https://t.me/Aweyout"><span>Telegram</span></a>
+                  <a class="primary_btn tr-bg" href="https://vk.com/aweyout"><span>VK</span></a>
+                  <a class="primary_btn tr-bg" href="https://www.instagram.com/my_aweyout"><span>Instagram</span></a>
                 </div>
                 <div class="align-items-center">
                   <br />
                   <h5 class="primary-btn"><strong>My Project</strong></h5>
-                  <a class="primary_btn" href="https://t.me/GU_time_bot"
-                    ><span>GU Time</span></a
-                  >
-                  <a class="primary_btn" href="https://vk.com/app51738489"
-                    ><span>Гид Эльбрус</span></a
-                  >
-                  <a class="primary_btn" href="https://gu-dot.ru"
-                    ><span>ЦДО ГУ (Курсы)</span></a
-                  >
-                  <a class="primary_btn" href="https://github.com/D1gout/TeamFlame_bot"
-                    ><span>3 место INNOGLOBALHACK 2023</span></a
-                  >
-                  <a class="primary_btn" href="https://t.me/UMVC_Academy_bot"
-                    ><span>UMVC Академия</span></a
-                  >
+                  <a class="primary_btn" href="https://t.me/GU_time_bot"><span>GU Time</span></a>
+                  <a class="primary_btn" href="https://vk.com/app51738489"><span>Гид Эльбрус</span></a>
+                  <a class="primary_btn" href="https://gu-dot.ru"><span>ЦДО ГУ (Курсы)</span></a>
+                  <a class="primary_btn" href="https://github.com/D1gout/TeamFlame_bot"><span>3 место INNOGLOBALHACK 2023</span></a>
+                  <a class="primary_btn" href="https://t.me/UMVC_Academy_bot"><span>UMVC Академия</span></a>
                 </div>
               </div>
             </div>
@@ -88,5 +61,56 @@
         </div>
       </div>
     </section>
+
+    <!-- Скрипт для настройки паутинок -->
+    <script>
+      particlesJS("particles-js", {
+        "particles": {
+          "number": {
+            "value": 100
+          },
+          "color": {
+            "value": "#f44a40"
+          },
+          "shape": {
+            "type": "circle"
+          },
+          "opacity": {
+            "value": 0.5
+          },
+          "size": {
+            "value": 2
+          },
+          "line_linked": {
+            "enable": true,
+            "distance": 150,
+            "color": "#f44a40",
+            "opacity": 0.4,
+            "width": 1
+          },
+          "move": {
+            "enable": true,
+            "speed": 1
+          }
+        },
+        "interactivity": {
+          "events": {
+            "onhover": {
+              "enable": true,
+              "mode": "grab"
+            }
+          },
+          "modes": {
+            "grab": {
+              "distance": 140,
+              "line_linked": {
+                "opacity": 1
+              }
+            }
+          }
+        },
+        "retina_detect": true
+      });
+    </script>
   </body>
 </html>
