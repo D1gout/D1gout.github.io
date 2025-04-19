@@ -125,8 +125,6 @@ button:focus {
 ============================================================================================ */
 .primary_btn {
   display: inline-block;
-  position: relative;
-  z-index: 2;
   margin: 10px;
   color: #fff;
   letter-spacing: 0px;
